@@ -8,6 +8,7 @@
 
 int main() {
 	cout << "Hello World!" << endl;
+	cout << "test print" << endl;
 
 	EnterName();
 
