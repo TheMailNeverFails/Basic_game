@@ -1,11 +1,12 @@
 // Basic_game.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include <iostream> // library for input output commands
 #include <string> //library for strings
 #include <windows.h> //library i used for the sleep function
-#include "Player_name.h"
+#include "Player_name.h" //My player login name header
 
+using namespace std;
 int main() {
 	cout << "Hello World!" << endl;
 	cout << "test print" << endl;
