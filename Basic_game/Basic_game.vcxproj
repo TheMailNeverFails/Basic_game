@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Basic_game.cpp" />
     <ClCompile Include="Player_name.cpp" />
+    <ClCompile Include="Text_Based_Adventure.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player_name.h" />
+    <ClInclude Include="Text_Based_Adventure.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

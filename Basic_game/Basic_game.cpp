@@ -5,6 +5,7 @@
 #include <string> //library for strings
 #include <windows.h> //library i used for the sleep function
 #include "Player_name.h" //My player login name header
+#include "Text_Based_Adventure.h"
 
 using namespace std;
 int main() {
@@ -12,6 +13,7 @@ int main() {
 	cout << "test print" << endl;
 
 	EnterName();
+	intro_text();
 
 	return(0);
 }
